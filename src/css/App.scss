@@ -1,0 +1,96 @@
+.text-align-center {
+    text-align: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-center {
+    justify-content: center;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w75 {
+    width: 75%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w33 {
+    width: 33%;
+}
+
+.w10 {
+    width: 10%;
+}
+
+.mw800 {
+    max-width: 800px;
+}
+
+.button {
+    box-shadow: none !important;
+}
+
+.themecolor {
+    color: #17a2b8;
+}
+
+.bg-secondary-color {
+    background-color: #90f0ff;
+}
+
+.block {
+    display: block;
+}
+
+.wordwrap {
+    word-wrap: break-word;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: poppinsbold;
+    src: url("../fonts/Poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: poppinsextrabold;
+    src: url("../fonts/Poppins/Poppins-ExtraBold.ttf");
+}
+
+h1 {
+    font-family: poppinsbold;
+}
+
+h3 {
+    font-family: poppins;
+}
+
+h4 {
+    font-family: poppins;
+}

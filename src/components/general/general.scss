@@ -1,0 +1,74 @@
+.Home {
+    background-image: url("../../assets/background_white.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 90px;
+}
+
+.nav-items {
+    font-family: poppins;
+    font-size: 20px;
+
+    :hover {
+        font-family: poppinsbold;
+        // !important overrides bootstrap CSS
+        text-decoration: underline !important;
+        text-decoration-color: #00d1ff !important;
+    }
+}
+
+.nav-login {
+    font-family: poppinsextrabold;
+    font-size: 20px;
+
+    :hover {
+        // !important overrides bootstrap CSS
+        text-decoration: underline !important;
+        text-decoration-color: #00d1ff !important;
+    }
+}
+
+.nav-login-item:hover {
+    color: black !important;
+}
+
+.nav-login-item {
+    color: #00d1ff !important;
+}
+
+.teamwork {
+    height: 500px;
+}
+
+.home-left {
+    width: 50vw;
+}
+
+.home-right {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+}
+
+.get-started {
+    background-color: #00d1ff !important;
+    border-color: #00d1ff !important;
+    font-family: poppinsbold;
+    width: 338px;
+    height: 94px;
+    font-size: 40px !important;
+}
+
+.explore {
+    a {
+        color: black !important;
+        text-decoration-color: #00d1ff !important;
+    }
+    height: 100%;
+    -ms-transform: translate(0%, 100%);
+    transform: translate(0%, 100%);
+    font-family: poppinsbold;
+    text-decoration: underline;
+}
